@@ -8,6 +8,9 @@ sub_dirs = ["test", "train-val"]
 
 def get_info(dataset_path, dataset_name):
     classes = {f'{dataset_name}': [0, 0]}
+    dirs = os.listdir(dataset_path)
+    if "train-val" not in dirs and "test" not in dirs:
+        raise RuntimeError(f"train-val and test directories must be in the dataset dir! Only found: {dirs}")
 
     def count_jpg(split_name):
         if split_name == "train-val":
@@ -46,35 +49,6 @@ def write_info(filename, d):
             writer.writerow(row)
 
     print(f"Data written to {filename}")
-
-
-def count_jpg_images(dataset_dir):
-    counts = {'train-val': {}, 'test': {}}
-
-    # Traverse through 'train-val' and 'test' directories
-    for split in ['train-val', 'test']:
-        split_path = os.path.join(dataset_dir, split)
-        if not os.path.exists(split_path):
-            print(f"Directory '{split_path}' does not exist.")
-            continue
-
-        # Traverse through each class directory
-        for class_name in os.listdir(split_path):
-            class_path = os.path.join(split_path, class_name)
-            if os.path.isdir(class_path):
-                jpg_count = sum(1 for file in os.listdir(class_path) if file.lower().endswith('.jpg'))
-                counts[split][class_name] = jpg_count
-
-    return counts
-
-
-def save_counts_to_file(counts, output_file):
-    with open(output_file, 'w') as f:
-        for split, classes in counts.items():
-            f.write(f"Dataset Split: {split}\n")
-            for class_name, count in classes.items():
-                f.write(f"Class '{class_name}': {count} images\n")
-            f.write("\n")
 
 
 if __name__ == "__main__":
