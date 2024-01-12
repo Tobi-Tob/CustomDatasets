@@ -1,5 +1,5 @@
 dataset/class,train-val,test
-Common_Objects,564,101
+Common_Objects,551,133
 apple,3,0
 banana,4,0
 bed,10,0
@@ -7,7 +7,7 @@ bench,9,0
 bicycle,26,10
 book,36,10
 bottle,53,10
-bowl,28,0
+bowl,24,8
 car,22,10
 cellphone,4,0
 chair,22,10
@@ -20,12 +20,12 @@ keyboard,11,0
 knife,41,10
 laptop,20,0
 motorcycle,5,0
-mouse,32,0
-potted plant,22,0
-potted_plant,13,10
+mouse,24,8
+potted plant,35,0
 remote,5,0
 spoon,54,11
-sportsball,33,0
+sportsball,25,8
 trafficlight,2,0
 truck,3,0
-wineglas,17,0
+wineglas,24,8
+potted_plant,0,10
