@@ -1,24 +1,23 @@
 dataset/class,train-val,test
-Road_Signs,681,19
+Road_Signs,504,177
 attention zone sign,24,9
 end of restriction sign,24,10
-give way sign,39,0
-highway exit in 100m sign,25,0
-highway exit in 200m sign,24,0
-highway exit in 300m sign,26,0
-highway exit sign,32,0
-mandatory direction sign,39,0
-no entry sign,24,0
-no overtaking sign,36,0
-no parking sign,41,0
-parking sign,43,0
-pedestrian zone sign,27,0
-priority road sign,36,0
-slippery road sign,23,0
-speed limit 100 sign,29,0
-speed limit 120 sign,38,0
-speed limit 30 sign,31,0
-speed limit 80 sign,41,0
-traffic banned sign,35,0
-wildlife crossing sign,19,0
-work zone sign,25,0
+give way sign,28,11
+highway exit in 100m sign,20,5
+highway exit in 200m sign,19,5
+highway exit in 300m sign,21,5
+highway exit sign,24,8
+mandatory direction sign,28,11
+no entry sign,19,5
+no overtaking sign,26,10
+no parking sign,29,12
+parking sign,29,14
+pedestrian zone sign,22,5
+priority road sign,26,10
+slippery road sign,18,5
+speed limit 100 sign,24,5
+speed limit 120 sign,26,12
+speed limit 30 sign,24,7
+speed limit 80 sign,28,13
+traffic banned sign,25,10
+work zone sign,20,5

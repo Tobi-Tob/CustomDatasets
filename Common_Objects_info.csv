@@ -1,6 +1,6 @@
 dataset/class,train-val,test
-Common_Objects,694,193
-bench,42,10
+Common_Objects,718,203
+bench,43,10
 bicycle,26,10
 book,36,10
 bottle,55,10
@@ -11,8 +11,9 @@ chair,29,10
 clock,30,10
 cup,35,10
 fork,34,10
+keyboard,24,10
 knife,41,10
-laptop,32,10
+laptop,31,10
 motorcycle,27,10
 mouse,25,8
 potted plant,37,10
