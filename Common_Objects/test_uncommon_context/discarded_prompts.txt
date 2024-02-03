@@ -1,3 +1,47 @@
+bench;2;a photo of a {name} in a inside a volcano -> RAUS!!!
+
+book;3;a photo of a {name} in a space station bathroom  ---> RAAAUS
+book;5;a photo of a {name} in a zero gravity chamber  ---> RAAAUS
+book;6;a photo of a {name} in a abandoned mine shaft  ---> RAAAUS
+book;9;a photo of a {name} in a jungle canopy zip line  ---> RAAAUS
+
+bottle;6;a photo of a {name} in a computer server room  ---> RAAAUS
+bottle;7;a photo of a {name} in a nuclear reactor core  ---> RAAAUS
+bottle;8;a photo of a {name} in a space station module  ---> RAAAUS
+
+bowl;8;a photo of a {name} in a on a battlefield  ---> RAAAUS
+
+car;7;a photo of a {name} in a volcanic crater  ---> RAAAUS
+
+cellphone;4;a photo of a {name} in a 17th century pirate ship  ---> RAAAUS
+cellphone;7;a photo of a {name} in a colonial american town  ---> RAAAUS
+
+chair;5;a photo of a {name} in a in a volcanic crater  ---> RAAAUS
+
+cup;8;a photo of a {name} in a deep underground cave  ---> RAAAUS
+cup;10;a photo of a {name} in a inside a computer  ---> RAAAUS
+
+fork;2;a photo of a {name} in a space station module  ---> RAAAUS
+fork;5;a photo of a {name} in a jungle canopy  ---> RAAAUS
+fork;6;a photo of a {name} in a volcanic lava flow  ---> RAAAUS
+fork;9;a photo of a {name} in a deep cave system  ---> RAAAUS
+
+keyboard;3;a photo of a {name} in a prehistoric jungle  ---> RAAAUS
+keyboard;5;a photo of a {name} in a active volcano crater  ---> RAAAUS
+keyboard;8;a photo of a {name} in a amazon rainforest canopy  ---> RAAAUS
+keyboard;9;a photo of a {name} in a deep space satellite  ---> RAAAUS
+
+knife;2;a photo of a {name} in a public swimming pool  ---> RAAAUS
+knife;3;a photo of a {name} in a high school graduation  ---> RAAAUS
+knife;4;a photo of a {name} in a sunday church service  ---> RAAAUS
+knife;5;a photo of a {name} in a public library reading room  ---> RAAAUS
+
+laptop;7;a photo of a {name} in a dinosaur jungle  ---> RAAAUS
+
+motorcycle;9;a photo of a {name} in a amazon rainforest canopy  ---> RAAAUS
+
+mouse;5;a photo of a {name} in a deep space station  ---> RAAAUS
+mouse;10;a photo of a {name} in a amazonian tribal village  ---> RAAAUS
 
 potted_plant;3;a photo of a {name} in a underwater volcanic vent
 potted_plant;5;a photo of a {name} in a abandoned nuclear silo
