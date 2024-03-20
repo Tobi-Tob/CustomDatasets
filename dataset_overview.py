@@ -19,6 +19,9 @@ def get_info(dataset_path, dataset_name):
         elif split_name == "test":
             split_dir = os.path.join(dataset_path, split_name)
             split = 1
+        #elif split_name == "test_uncommon_context":
+        #    split_dir = os.path.join(dataset_path, split_name)
+        #    split = 2
         else:
             raise AttributeError(f"split is not train-val or test, but: {split_name}")
 
